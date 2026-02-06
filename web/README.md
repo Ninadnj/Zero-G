@@ -1,4 +1,4 @@
-# Antigravity Kit
+# Zero-G Kit
 
 > AI Agent templates with Skills, Agents, and Workflows
 

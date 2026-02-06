@@ -21,7 +21,7 @@ export default function Header() {
                         {/* Logo - Responsive */}
                         <span className="before:-inset-x-1 before:-rotate-1 relative z-4 before:pointer-events-none before:absolute before:inset-y-0 before:z-4 before:bg-linear-to-r before:from-blue-500 before:via-purple-500 before:to-orange-500 before:opacity-16 before:mix-blend-hard-light font-semibold text-sm sm:text-base truncate">
                             <Link href="/" className="flex items-center gap-2 shrink-0 min-w-0">
-                                <span className="hidden sm:inline">Antigravity Kit</span>
+                                <span className="hidden sm:inline">Zero-G Kit</span>
                                 <span className="sm:hidden">AG Kit</span>
                             </Link>
                         </span>

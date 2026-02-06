@@ -114,7 +114,7 @@ export default function Footer() {
                 <div className="pt-8 border-t border-zinc-200 dark:border-zinc-800 flex flex-col sm:flex-row items-center justify-between gap-4">
                     {/* Copyright */}
                     <p className="text-sm text-zinc-600 dark:text-zinc-400">
-                        © {new Date().getFullYear()} Antigravity Kit by{" "}
+                        © {new Date().getFullYear()} Zero-G Kit by{" "}
                         <a
                             href="https://github.com/Ninadnj"
                             target="_blank"

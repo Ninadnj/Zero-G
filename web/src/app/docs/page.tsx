@@ -18,7 +18,7 @@ export default function DocsPage() {
                 </p>
             </div>
 
-            {/* What is Antigravity Kit */}
+            {/* What is Zero-G Kit */}
             <section className="mb-12">
                 <h2 className="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 mb-4">
                     What is <span className="before:-inset-x-1 before:-rotate-1 relative z-4 before:pointer-events-none before:absolute before:inset-y-0 before:z-4 before:bg-linear-to-r before:from-blue-500 before:via-purple-500 before:to-orange-500 before:opacity-16 before:mix-blend-hard-light">

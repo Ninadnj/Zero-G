@@ -3,8 +3,8 @@ import { CodeBlock } from "@/components/docs/code-block";
 import { Lightbulb, Palette, Settings, Database, FlaskConical, CheckCircle2, XCircle } from "lucide-react";
 
 export const metadata: Metadata = {
-    title: "Example: Create Web App | Antigravity Kit",
-    description: "Step-by-step guide on creating a web application using Antigravity Kit workflows and agents.",
+    title: "Example: Create Web App | Zero-G Kit",
+    description: "Step-by-step guide on creating a web application using Zero-G Kit workflows and agents.",
 };
 
 export default function WebAppExamplePage() {
@@ -15,7 +15,7 @@ export default function WebAppExamplePage() {
                 Create a Web Application
             </h1>
             <p className="text-lg text-zinc-600 dark:text-zinc-400 mb-8">
-                Learn how to build a full-stack web app using Antigravity Kit workflows and agents
+                Learn how to build a full-stack web app using Zero-G Kit workflows and agents
             </p>
 
             {/* Introduction */}
@@ -24,7 +24,7 @@ export default function WebAppExamplePage() {
                     Overview
                 </h2>
                 <p className="text-zinc-700 dark:text-zinc-300 mb-4">
-                    This guide demonstrates how to use Antigravity Kit to create a complete web application from scratch.
+                    This guide demonstrates how to use Zero-G Kit to create a complete web application from scratch.
                     You&apos;ll learn how to leverage workflows like <code>/create</code>, <code>/plan</code>, and <code>/deploy </code>
                     along with specialized agents to build production-ready applications.
                 </p>

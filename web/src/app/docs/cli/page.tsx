@@ -16,7 +16,7 @@ export default function CLIPage() {
                     CLI Reference
                 </h1>
                 <p className="text-lg text-zinc-600 dark:text-zinc-400">
-                    Command-line interface for managing Antigravity Kit installations.
+                    Command-line interface for managing Zero-G Kit installations.
                 </p>
             </div>
 
@@ -26,7 +26,7 @@ export default function CLIPage() {
                     Overview
                 </h2>
                 <p className="text-base text-zinc-600 dark:text-zinc-400 mb-6">
-                    The <code className="px-1.5 py-0.5 rounded bg-zinc-100 dark:bg-zinc-800 text-sm font-mono">ag-kit</code> CLI tool helps you manage Antigravity Kit installations across your projects.
+                    The <code className="px-1.5 py-0.5 rounded bg-zinc-100 dark:bg-zinc-800 text-sm font-mono">ag-kit</code> CLI tool helps you manage Zero-G Kit installations across your projects.
                 </p>
             </section>
 
@@ -43,7 +43,7 @@ export default function CLIPage() {
                             <code className="font-mono">ag-kit init</code>
                         </h3>
                         <p className="text-base text-zinc-600 dark:text-zinc-400 mb-4">
-                            Initialize Antigravity Kit in your project by installing the <code className="px-1.5 py-0.5 rounded bg-zinc-100 dark:bg-zinc-800 text-sm font-mono">.agent</code> folder.
+                            Initialize Zero-G Kit in your project by installing the <code className="px-1.5 py-0.5 rounded bg-zinc-100 dark:bg-zinc-800 text-sm font-mono">.agent</code> folder.
                         </p>
 
                         <div className="relative group mb-4">
@@ -68,7 +68,7 @@ export default function CLIPage() {
                             <code className="font-mono">ag-kit update</code>
                         </h3>
                         <p className="text-base text-zinc-600 dark:text-zinc-400 mb-4">
-                            Update your existing Antigravity Kit installation to the latest version.
+                            Update your existing Zero-G Kit installation to the latest version.
                         </p>
 
                         <div className="relative group mb-4">
