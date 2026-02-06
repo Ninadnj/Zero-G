@@ -3,21 +3,18 @@
 > AI Agent templates with Skills, Agents, and Workflows
 
 <div  align="center">
-    <a href="https://unikorn.vn/p/antigravity-kit?ref=unikorn" target="_blank"><img src="https://unikorn.vn/api/widgets/badge/antigravity-kit?theme=dark" alt="Antigravity Kit - Nổi bật trên Unikorn.vn" style="width: 210px; height: 54px;" width="210" height="54" /></a>
-    <a href="https://unikorn.vn/p/antigravity-kit?ref=unikorn" target="_blank"><img src="https://unikorn.vn/api/widgets/badge/antigravity-kit/rank?theme=dark&type=daily" alt="Antigravity Kit - Hàng ngày" style="width: 250px; height: 64px;" width="250" height="64" /></a>
-    <a href="https://launch.j2team.dev/products/antigravity-kit" target="_blank"><img src="https://launch.j2team.dev/badge/antigravity-kit/dark" alt="Antigravity Kit on J2TEAM Launch" width="250" height="54" /></a>
 </div>
 
 ## Quick Install
 
 ```bash
-npx @vudovn/ag-kit init
+npx @ninadnj/zero-g init
 ```
 
 Or install globally:
 
 ```bash
-npm install -g @vudovn/ag-kit
+npm install -g @ninadnj/zero-g
 ag-kit init
 ```
 
@@ -105,13 +102,13 @@ ag-kit init --dry-run      # Preview actions without executing
 
 ## Documentation
 
-- **[Web App Example](https://antigravity-kit.vercel.app//docs/guide/examples/web-app)** - Step-by-step guide to creating a web application
-- **[Online Docs](https://antigravity-kit.vercel.app//docs)** - Browse all documentation online
+- **[Web App Example](https://zero-g-kit.vercel.app//docs/guide/examples/web-app)** - Step-by-step guide to creating a web application
+- **[Online Docs](https://zero-g-kit.vercel.app//docs)** - Browse all documentation online
 
 ## Buy me coffee
 
 <p align="center">
-  <a href="https://buymeacoffee.com/vudovn">
+  <a href="https://buymeacoffee.com/Ninadnj">
     <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee" />
   </a>
 </p>
@@ -124,4 +121,4 @@ ag-kit init --dry-run      # Preview actions without executing
 
 ## License
 
-MIT © Vudovn
+MIT © Nina DNJ

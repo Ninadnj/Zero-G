@@ -97,7 +97,7 @@ export default function MobileMenu() {
                         {/* Mobile Action Buttons */}
                         <div className="mt-6 pt-6 border-t border-zinc-200 dark:border-zinc-800 flex gap-3">
                             <DonateDialog className="" />
-                            <Link href="https://github.com/vudovn/antigravity-kit" target="_blank" rel="noopener noreferrer">
+                            <Link href="https://github.com/Ninadnj/Zero-G" target="_blank" rel="noopener noreferrer">
                                 <Button variant="outline" className="w-full justify-start">
                                     <GithubIcon className="w-4 h-4 mr-2" />
                                     GitHub

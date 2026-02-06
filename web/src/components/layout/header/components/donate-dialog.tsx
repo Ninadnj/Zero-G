@@ -32,7 +32,7 @@ export default function DonateDialog({ className }: DonateDialogProps) {
                 <div className="space-y-3 p-4">
                     {/* Buy Me a Coffee */}
                     <a
-                        href="https://buymeacoffee.com/vudovn"
+                        href="https://buymeacoffee.com/Ninadnj"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-3 p-4 rounded-lg border border-zinc-200 dark:border-zinc-800 hover:border-zinc-300 dark:hover:border-zinc-700 hover:bg-zinc-50 dark:hover:bg-zinc-900 transition-all group"
@@ -90,7 +90,7 @@ export default function DonateDialog({ className }: DonateDialogProps) {
 
                     {/* Hire Me Option */}
                     {/* <a
-                        href="https://www.linkedin.com/in/vudovn" // Assuming this link based on username, user can update
+                        href="https://www.linkedin.com/in/Ninadnj" // Assuming this link based on username, user can update
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-3 p-4 rounded-lg border border-zinc-200 dark:border-zinc-800 hover:border-blue-500/50 dark:hover:border-blue-500/50 hover:bg-blue-50 dark:hover:bg-blue-900/10 transition-all group"

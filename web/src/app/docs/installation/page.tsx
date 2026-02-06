@@ -31,7 +31,7 @@ export default function InstallationPage() {
                     The fastest way to install Antigravity Kit is using <code className="px-1.5 py-0.5 rounded bg-zinc-100 dark:bg-zinc-800 text-sm font-mono">npx</code> in root project:
                 </p>
 
-                <CodeBlock code="npx @vudovn/ag-kit init" />
+                <CodeBlock code="npx @ninadnj/zero-g init" />
 
                 <div className="mt-2 p-4 rounded-lg border border-blue-200 dark:border-blue-900 bg-blue-50 dark:bg-blue-950/20 mb-6">
                     <p className="text-sm text-blue-900 dark:text-blue-100 mb-0 ">
@@ -50,7 +50,7 @@ export default function InstallationPage() {
                     Install the CLI globally to use <code className="px-1.5 py-0.5 rounded bg-zinc-100 dark:bg-zinc-800 text-sm font-mono">ag-kit</code> command anywhere:
                 </p>
 
-                <CodeBlock code={`npm install -g @vudovn/ag-kit`} />
+                <CodeBlock code={`npm install -g @ninadnj/zero-g`} />
 
                 <CodeBlock className="mt-2" code={`cd your-project && ag-kit init`} />
                 <small> Read other commands in <Link className="text-blue-500 hover:text-blue-600 dark:text-blue-400 dark:hover:text-blue-300" href="/docs/commands">cli commands</Link> documentation.</small>

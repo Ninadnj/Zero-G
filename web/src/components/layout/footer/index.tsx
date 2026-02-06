@@ -48,12 +48,12 @@ export default function Footer() {
                                 </Link>
                             </li>
                             <li>
-                                <a href="https://github.com/vudovn/antigravity-kit" target="_blank" rel="noopener noreferrer" className="text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-50 transition-colors">
+                                <a href="https://github.com/Ninadnj/Zero-G" target="_blank" rel="noopener noreferrer" className="text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-50 transition-colors">
                                     Examples
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/vudovn/antigravity-kit/releases" target="_blank" rel="noopener noreferrer" className="text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-50 transition-colors">
+                                <a href="https://github.com/Ninadnj/Zero-G/releases" target="_blank" rel="noopener noreferrer" className="text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-50 transition-colors">
                                     Changelog
                                 </a>
                             </li>
@@ -65,22 +65,22 @@ export default function Footer() {
                         <h3 className="font-semibold text-zinc-900 dark:text-zinc-50 mb-4">Community</h3>
                         <ul className="space-y-3 text-sm">
                             <li>
-                                <a href="https://github.com/vudovn/antigravity-kit" target="_blank" rel="noopener noreferrer" className="text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-50 transition-colors">
+                                <a href="https://github.com/Ninadnj/Zero-G" target="_blank" rel="noopener noreferrer" className="text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-50 transition-colors">
                                     GitHub
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/vudovn/antigravity-kit/issues" target="_blank" rel="noopener noreferrer" className="text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-50 transition-colors">
+                                <a href="https://github.com/Ninadnj/Zero-G/issues" target="_blank" rel="noopener noreferrer" className="text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-50 transition-colors">
                                     Issues
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/vudovn/antigravity-kit/discussions" target="_blank" rel="noopener noreferrer" className="text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-50 transition-colors">
+                                <a href="https://github.com/Ninadnj/Zero-G/discussions" target="_blank" rel="noopener noreferrer" className="text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-50 transition-colors">
                                     Discussions
                                 </a>
                             </li>
                             <li>
-                                <a href="https://github.com/vudovn/antigravity-kit/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer" className="text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-50 transition-colors">
+                                <a href="https://github.com/Ninadnj/Zero-G/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer" className="text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-50 transition-colors">
                                     Contributing
                                 </a>
                             </li>
@@ -92,7 +92,7 @@ export default function Footer() {
                         <h3 className="font-semibold text-zinc-900 dark:text-zinc-50 mb-4">Legal</h3>
                         <ul className="space-y-3 text-sm">
                             <li>
-                                <a href="https://github.com/vudovn/antigravity-kit/blob/main/LICENSE" target="_blank" rel="noopener noreferrer" className="text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-50 transition-colors">
+                                <a href="https://github.com/Ninadnj/Zero-G/blob/main/LICENSE" target="_blank" rel="noopener noreferrer" className="text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-50 transition-colors">
                                     License
                                 </a>
                             </li>
@@ -116,18 +116,18 @@ export default function Footer() {
                     <p className="text-sm text-zinc-600 dark:text-zinc-400">
                         © {new Date().getFullYear()} Antigravity Kit by{" "}
                         <a
-                            href="https://github.com/vudovn"
+                            href="https://github.com/Ninadnj"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="font-medium text-zinc-900 dark:text-zinc-50 hover:underline">
-                            @vudovn
+                            @Ninadnj
                         </a>. All rights reserved.
                     </p>
 
                     {/* Social Links */}
                     <div className="flex items-center gap-4">
                         <a
-                            href="https://github.com/vudovn/antigravity-kit"
+                            href="https://github.com/Ninadnj/Zero-G"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-50 transition-colors"
@@ -138,7 +138,7 @@ export default function Footer() {
                             </svg>
                         </a>
                         <a
-                            href="https://facebook.com/vudovn.354"
+                            href="https://facebook.com/Ninadnj.354"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-zinc-600 dark:text-zinc-400 hover:text-zinc-900 dark:hover:text-zinc-50 transition-colors"

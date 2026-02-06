@@ -55,5 +55,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - CLI tool for easy installation and updates
 - Comprehensive documentation and architecture guide
 
-[Unreleased]: https://github.com/vudovn/antigravity-kit/compare/v2.0.0...HEAD
-[2.0.0]: https://github.com/vudovn/antigravity-kit/releases/tag/v2.0.0
+[Unreleased]: https://github.com/Ninadnj/Zero-G/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/Ninadnj/Zero-G/releases/tag/v2.0.0
