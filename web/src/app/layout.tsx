@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Antigravity Kit - AI Agent Capability Expansion Toolkit",
-  description: "A comprehensive collection of skills, rules, and workflows to supercharge AI coding assistants for Antigravity. 35+ skills, 57 UI Styles, production-ready workflows.",
+  title: "Zero-G Kit - The Operating System for AI Agents",
+  description: "A comprehensive AI Agent toolkit by Nina DNJ. 20 Agents, 36 Skills, and MCP-ready architecture to supercharge your workflow.",
 };
 
 export default function RootLayout({

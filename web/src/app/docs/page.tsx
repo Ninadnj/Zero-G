@@ -13,7 +13,7 @@ export default function DocsPage() {
                 </h1>
                 <p className="text-lg text-zinc-600 dark:text-zinc-400">
                     Welcome to the <span className="before:-inset-x-1 before:-rotate-1 relative z-4 before:pointer-events-none before:absolute before:inset-y-0 before:z-4 before:bg-linear-to-r before:from-blue-500 before:via-purple-500 before:to-orange-500 before:opacity-16 before:mix-blend-hard-light">
-                        Antigravity Kit
+                        Zero-G Kit
                     </span> documentation.
                 </p>
             </div>
@@ -22,22 +22,22 @@ export default function DocsPage() {
             <section className="mb-12">
                 <h2 className="text-2xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 mb-4">
                     What is <span className="before:-inset-x-1 before:-rotate-1 relative z-4 before:pointer-events-none before:absolute before:inset-y-0 before:z-4 before:bg-linear-to-r before:from-blue-500 before:via-purple-500 before:to-orange-500 before:opacity-16 before:mix-blend-hard-light">
-                        Antigravity Kit
+                        Zero-G Kit
                     </span> ?
                 </h2>
                 <p className="text-base text-zinc-600 dark:text-zinc-400 mb-4">
                     <span className="before:-inset-x-1 before:-rotate-1 relative z-4 before:pointer-events-none before:absolute before:inset-y-0 before:z-4 before:bg-linear-to-r before:from-blue-500 before:via-purple-500 before:to-orange-500 before:opacity-16 before:mix-blend-hard-light">
-                        Antigravity Kit
+                        Zero-G Kit
                     </span> is a comprehensive collection of AI Agent templates with Skills, Agents, and Workflows designed to supercharge AI coding assistants for{" "}
                     <a
-                        href="https://antigravity.google/t"
+                        href="https://github.com/Ninadnj/Zero-G"
                         className="text-zinc-900 dark:text-zinc-50 underline underline-offset-4 decoration-zinc-300 dark:decoration-zinc-700 hover:decoration-zinc-900 dark:hover:decoration-zinc-50 transition-colors"
                     >
-                        Antigravity
+                        Zero-G
                     </a>.
                 </p>
                 <p className="text-base text-zinc-600 dark:text-zinc-400 mb-4">
-                    Whether you're an individual developer or part of a larger team, Antigravity Kit helps you build better software faster with 40+ skills, 16 specialist agents, and 11 production-ready workflows.
+                    Whether you're an individual developer or part of a larger team, Zero-G Kit helps you build better software faster with 36+ skills, 20 specialist agents, and 11 production-ready workflows.
                 </p>
             </section>
 
@@ -124,7 +124,7 @@ export default function DocsPage() {
                             <h3 className="font-semibold text-zinc-900 dark:text-zinc-50">Installation →</h3>
                         </div>
                         <p className="text-sm text-zinc-600 dark:text-zinc-400">
-                            Get started with Antigravity Kit in under a minute
+                            Get started with Zero-G Kit in under a minute
                         </p>
                     </Link>
                     <Link
