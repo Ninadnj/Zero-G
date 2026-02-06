@@ -1,137 +1,82 @@
-# Antigravity Kit
+# 🚀 Zero-G Kit
 
-> AI Agent templates with Skills, Agents, and Workflows
+> **The Operating System for AI Agents**
+> *By Nina DNJ*
 
-<div  align="center">
-    <a href="https://unikorn.vn/p/antigravity-kit?ref=unikorn" target="_blank"><img src="https://unikorn.vn/api/widgets/badge/antigravity-kit?theme=dark" alt="Antigravity Kit - Nổi bật trên Unikorn.vn" style="width: 210px; height: 54px;" width="210" height="54" /></a>
-    <a href="https://unikorn.vn/p/antigravity-kit?ref=unikorn" target="_blank"><img src="https://unikorn.vn/api/widgets/badge/antigravity-kit/rank?theme=dark&type=daily" alt="Antigravity Kit - Hàng ngày" style="width: 250px; height: 64px;" width="250" height="64" /></a>
-    <a href="https://launch.j2team.dev/products/antigravity-kit" target="_blank"><img src="https://launch.j2team.dev/badge/antigravity-kit/dark" alt="Antigravity Kit on J2TEAM Launch" width="250" height="54" /></a>
-</div>
+**Zero-G** (Zero Gravity) removes the "heavy lifting" of software engineering. It transforms a standard AI model into a specialized engineering team (Frontend Expert, Security Auditor, DevOps) that shares a common brain, tools, and workflows to build software autonomously.
 
-## Quick Install
+---
 
-```bash
-npx @vudovn/ag-kit init
-```
+## ⚡ Quick Start
 
-Or install globally:
+clone the repository to start using the kit:
 
 ```bash
-npm install -g @vudovn/ag-kit
-ag-kit init
+git clone https://github.com/Ninadnj/Zero-G.git
+cd Zero-G
 ```
 
-This installs the `.agent` folder containing all templates into your project.
+Then, just start chatting with your AI agent! The system automatically detects your intent and loads the right skills.
 
-## What's Included
+---
 
-| Component     | Count | Description                                                        |
-| ------------- | ----- | ------------------------------------------------------------------ |
-| **Agents**    | 20    | Specialist AI personas (frontend, backend, security, PM, QA, etc.) |
-| **Skills**    | 36    | Domain-specific knowledge modules                                  |
-| **Workflows** | 11    | Slash command procedures                                           |
+## 🧩 What's Inside?
 
+| Component | Count | Description |
+| :--- | :--- | :--- |
+| **Agents** | **20** | Specialist Personas (Frontend, Backend, Security, PM, etc.) |
+| **Skills** | **36** | Modular Knowledge (React, Node.js, Security, SEO, etc.) |
+| **Workflows** | **11** | Slash Commands (`/create`, `/deploy`, `/debug`) |
 
-## Usage
+---
 
-### Using Agents
+## 🤖 How to Use
 
-**No need to mention agents explicitly!** The system automatically detects and applies the right specialist(s):
+### 1. Just Chat (Automatic Routing)
+You don't need to configure anything. The system quietly routes your request to the right expert.
 
-```
-You: "Add JWT authentication"
-AI: 🤖 Applying @security-auditor + @backend-specialist...
+```plaintext
+You: "Build a login page with Next.js"
+AI: 🤖 Applying @frontend-specialist + @nextjs-react-expert...
 
-You: "Fix the dark mode button"
-AI: 🤖 Using @frontend-specialist...
-
-You: "Login returns 500 error"
-AI: 🤖 Using @debugger for systematic analysis...
-```
-
-**How it works:**
-
-- Analyzes your request silently
-
-- Detects domain(s) automatically (frontend, backend, security, etc.)
-- Selects the best specialist(s)
-- Informs you which expertise is being applied
-- You get specialist-level responses without needing to know the system architecture
-
-**Benefits:**
-
-- ✅ Zero learning curve - just describe what you need
-- ✅ Always get expert responses
-- ✅ Transparent - shows which agent is being used
-- ✅ Can still override by mentioning agent explicitly
-
-### Using Workflows
-
-Invoke workflows with slash commands:
-
-| Command          | Description                           |
-| ---------------- | ------------------------------------- |
-| `/brainstorm`    | Explore options before implementation |
-| `/create`        | Create new features or apps           |
-| `/debug`         | Systematic debugging                  |
-| `/deploy`        | Deploy application                    |
-| `/enhance`       | Improve existing code                 |
-| `/orchestrate`   | Multi-agent coordination              |
-| `/plan`          | Create task breakdown                 |
-| `/preview`       | Preview changes locally               |
-| `/status`        | Check project status                  |
-| `/test`          | Generate and run tests                |
-| `/ui-ux-pro-max` | Design with 50 styles                 |
-
-Example:
-
-```
-/brainstorm authentication system
-/create landing page with hero section
-/debug why login fails
+You: "Check this API for security holes"
+AI: 🤖 Applying @security-auditor + @vulnerability-scanner...
 ```
 
-### Using Skills
+### 2. Slash Commands (Workflows)
 
-Skills are loaded automatically based on task context. The AI reads skill descriptions and applies relevant knowledge.
+| Command | Description |
+| :--- | :--- |
+| **`/create`** | Start a new project or feature |
+| **`/plan`** | Generate a detailed implementation plan |
+| **`/debug`** | Run a systematic 4-phase debugging session |
+| **`/deploy`** | Run verification checks and deploy |
+| **`/orchestrate`** | Coordinate multiple agents for complex tasks |
+| **`/ui-ux-pro-max`** | Apply premium design styles |
 
-## CLI Tool
+### 3. Validation Scripts
 
-| Command         | Description                               |
-| --------------- | ----------------------------------------- |
-| `ag-kit init`   | Install `.agent` folder into your project |
-| `ag-kit update` | Update to the latest version              |
-| `ag-kit status` | Check installation status                 |
-
-### Options
+Ensure your code is production-ready before you ship.
 
 ```bash
-ag-kit init --force        # Overwrite existing .agent folder
-ag-kit init --path ./myapp # Install in specific directory
-ag-kit init --branch dev   # Use specific branch
-ag-kit init --quiet        # Suppress output (for CI/CD)
-ag-kit init --dry-run      # Preview actions without executing
+# Quick validation (Security, Lint, Schema)
+python .agent/scripts/checklist.py .
+
+# Full verification (Lighthouse, E2E, SEO, Mobile)
+python .agent/scripts/verify_all.py .
 ```
 
-## Documentation
+---
 
-- **[Web App Example](https://antigravity-kit.vercel.app//docs/guide/examples/web-app)** - Step-by-step guide to creating a web application
-- **[Online Docs](https://antigravity-kit.vercel.app//docs)** - Browse all documentation online
+## 🔗 Documentation
 
-## Buy me coffee
+The `Zero-G Kit` is self-documenting.
+- **Agents**: See `.agent/agents/*.md`
+- **Skills**: See `.agent/skills/*/SKILL.md`
+- **Workflows**: See `.agent/workflows/*.md`
 
-<p align="center">
-  <a href="https://buymeacoffee.com/vudovn">
-    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee" />
-  </a>
-</p>
+---
 
-<p align="center"> - or - </p>
+## 📄 License
 
-<p align="center">
-  <img src="https://img.vietqr.io/image/mbbank-0779440918-compact.jpg" alt="Buy me coffee" width="200" />
-</p>
-
-## License
-
-MIT © Nina DNJ
+MIT © [Nina DNJ](https://github.com/Ninadnj)
