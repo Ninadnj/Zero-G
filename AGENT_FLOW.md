@@ -1,6 +1,7 @@
-# 🔄 Agent Flow Architecture
+# 🔄 Zero-G Agent Flow Architecture
 
-> **Antigravity Kit** - Comprehensive AI Agent Workflow Documentation
+> **Zero-G Kit** (formerly Antigravity) - The Operating System for AI Agents
+> *Documentation of the Flow of Intelligence*
 
 ---
 
@@ -46,10 +47,11 @@
                            │
                            ▼
          ┌─────────────────────────────────────┐
-         │       AGENT INITIALIZATION          │
-         │  • Load agent persona/role          │
-         │  • Load required skills             │
-         │  • Set behavioral mode              │
+         │       ZERO-G INITIALIZATION         │
+         │  1. Load USER_PREFERENCES.md        │
+         │  2. Load PROJECT_DNA.md (Config)    │
+         │  3. Load OPERATIONAL_PROTOCOLS.md   │
+         │  4. Set Behavioral Mode             │
          └──────────────┬──────────────────────┘
                         │
                         ▼
@@ -153,7 +155,7 @@ Request Domain → Agent Mapping:
 │ UI/UX Design         │ frontend-specialist │ nextjs-react-expert      │
 │                      │                     │ frontend-design          │
 │                      │                     │ tailwind-patterns        │
-|                      │                     │ web-design-guidelines    │
+│                      │                     │ web-design-guidelines    │
 │                      │                     │ frontend-design          │
 ├──────────────────────┼─────────────────────┼──────────────────────────┤
 │ API Development      │ backend-specialist  │ api-patterns             │
@@ -240,14 +242,6 @@ Step 5: Apply Knowledge
 │ • Documentation templates                │
 │ • Validation scripts                     │
 └──────────────────────────────────────────┘
-
-### Related Skills Pattern
-
-Skills now link to each other:
-- `frontend-design` → `web-design-guidelines` (after coding)
-- `web-design-guidelines` → `frontend-design` (before coding)
-
-> **Note**: Scripts are NOT auto-executed. AI suggests running them, user approves.
 ```
 
 ### 4️⃣ **Workflow Command Execution**
@@ -265,9 +259,10 @@ Slash Command Flow:
     ↓
     1. Detect: Project type (web/mobile/api/game)
     2. Load: app-builder skill + domain-specific skills
-    3. Select: Template from app-builder/templates/
-    4. Scaffold: Generate project structure
-    5. Validate: Run checklist.py
+    3. Check: PROJECT_DNA.md for overrides
+    4. Select: Template from app-builder/templates/
+    5. Scaffold: Generate project structure
+    6. Validate: Run checklist.py
 
 /debug
     ↓
@@ -411,116 +406,7 @@ Pre-Deployment (Full Verification):
 
 ---
 
-## 🧩 Skill-to-Script Mapping
-
-```
-Skills with Automated Scripts:
-
-┌─────────────────────────┬──────────────────────────────────┐
-│ Skill                   │ Script                           │
-├─────────────────────────┼──────────────────────────────────┤
-│ api-patterns            │ scripts/api_validator.py         │
-│ database-design         │ scripts/schema_validator.py      │
-│ frontend-design         │ scripts/accessibility_checker.py │
-│                         │ scripts/ux_audit.py              │
-│ geo-fundamentals        │ scripts/geo_checker.py           │
-│ i18n-localization       │ scripts/i18n_checker.py          │
-│ lint-and-validate       │ scripts/lint_runner.py           │
-│                         │ scripts/type_coverage.py         │
-│ mobile-design           │ scripts/mobile_audit.py          │
-│ performance-profiling   │ scripts/lighthouse_runner.py     │
-│                         │ scripts/bundle_analyzer.py       │
-│ seo-fundamentals        │ scripts/seo_checker.py           │
-│ testing-patterns        │ scripts/test_runner.py           │
-│ vulnerability-scanner   │ scripts/security_scanner.py      │
-│ webapp-testing          │ scripts/e2e_runner.py            │
-└─────────────────────────┴──────────────────────────────────┘
-```
-
----
-
-## 🔄 Complete Request Lifecycle Example
-
-```
-User Request: "Build a Next.js dashboard with authentication"
-
-1. REQUEST CLASSIFICATION
-   ├─ Type: Build new feature
-   ├─ Domain: Frontend + Backend
-   ├─ Complexity: Medium-High
-   └─ Suggested: /create or /orchestrate
-
-2. WORKFLOW SELECTION
-   └─ User chooses: /orchestrate (multi-agent approach)
-
-3. ORCHESTRATOR DECOMPOSITION
-   ├─ Frontend: Dashboard UI (React components)
-   ├─ Backend: Auth API (JWT, session management)
-   ├─ Database: User schema (Prisma)
-   └─ Testing: E2E auth flow
-
-4. AGENT ASSIGNMENT
-   ├─ frontend-specialist
-   │   └─ Skills: nextjs-react-expert, tailwind-patterns, frontend-design
-   ├─ backend-specialist
-   │   └─ Skills: api-patterns, nodejs-best-practices
-   ├─ database-architect
-   │   └─ Skills: database-design, prisma-expert
-   └─ test-engineer
-       └─ Skills: testing-patterns, webapp-testing
-
-5. SEQUENTIAL MULTI-DOMAIN EXECUTION
-   Note: AI processes each domain sequentially, switching context between specialist "personas."
-   This is NOT true parallel execution but simulated multi-agent behavior.
-
-   ├─ Frontend builds:
-   │   ├─ app/dashboard/page.tsx (Server Component)
-   │   ├─ components/DashboardLayout.tsx
-   │   ├─ components/LoginForm.tsx
-   │   └─ lib/auth-client.ts
-   ├─ Backend builds:
-   │   ├─ app/api/auth/login/route.ts
-   │   ├─ app/api/auth/logout/route.ts
-   │   ├─ lib/jwt.ts
-   │   └─ middleware.ts
-   ├─ Database builds:
-   │   ├─ prisma/schema.prisma (User, Session models)
-   │   └─ prisma/migrations/
-   └─ Testing builds:
-       ├─ tests/auth.spec.ts (Playwright)
-       └─ tests/dashboard.spec.ts
-
-6. CODE INTEGRATION
-   Reality Note: AI writes code as a continuous stream, maintaining consistency.
-   There is no "merge" step - it's all generated coherently from the start.
-
-   └─ AI maintains coherence across domains
-       ├─ Resolves import paths
-       ├─ Ensures type safety
-       └─ Connects API routes to UI
-
-7. VALIDATION
-   ├─ checklist.py
-   │   ✓ Security: No leaked secrets
-   │   ✓ Lint: No ESLint errors
-   │   ✓ Types: TypeScript passes
-   │   ✓ Tests: Auth flow passes
-   └─ verify_all.py
-       ✓ E2E: Login → Dashboard → Logout works
-       ✓ Accessibility: WCAG AA compliant
-       ✓ Performance: Lighthouse score > 90
-
-8. RESULT DELIVERY
-   └─ User receives:
-       ├─ Complete codebase
-       ├─ Documentation (how to run)
-       ├─ Test reports
-       └─ Deployment instructions
-```
-
----
-
-## 📈 Statistics & Metrics
+##  Statistics & Metrics
 
 ```
 ┌──────────────────────────────────────────────────────────┐
@@ -545,49 +431,6 @@ User Request: "Build a Next.js dashboard with authentication"
 
 ---
 
-## 🎓 Best Practices
-
-### When to Use Each Workflow
-
-```
-/brainstorm
-  ✓ Unclear requirements
-  ✓ Need to explore options
-  ✓ Complex problem needs breaking down
-
-/create
-  ✓ New feature in existing project
-  ✓ Small-to-medium complexity
-  ✓ Single domain (frontend OR backend)
-
-/orchestrate
-  ✓ Full-stack features
-  ✓ Complex multi-step tasks
-  ✓ Need multiple specialist agents
-
-/debug
-  ✓ Bug reports
-  ✓ Unexpected behavior
-  ✓ Performance issues
-
-/test
-  ✓ Need test coverage
-  ✓ Before deployment
-  ✓ After major changes
-
-/deploy
-  ✓ Ready to ship
-  ✓ After all tests pass
-  ✓ Need production URL
-
-/plan
-  ✓ Large projects
-  ✓ Need time estimates
-  ✓ Team coordination needed
-```
-
----
-
 ## 🔗 Quick Reference Links
 
 - **Architecture**: `.agent/ARCHITECTURE.md`
@@ -595,8 +438,11 @@ User Request: "Build a Next.js dashboard with authentication"
 - **Skills**: `.agent/skills/`
 - **Workflows**: `.agent/workflows/`
 - **Scripts**: `.agent/scripts/`
+- **Rules**: `.agent/rules/`
+- **Templates**: `.agent/templates/`
 
 ---
 
-**Last Updated**: 2026-01-26
-**Version**: 2.0.1
+**Last Updated**: 2026-02-06
+**Version**: 2.1.0 (Zero-G Edition)
+**Author**: Nina DNJ
